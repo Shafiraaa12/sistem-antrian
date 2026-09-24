@@ -10,7 +10,7 @@ function Login() {
 
     try {
       const response = await fetch(
-        `http://localhost:8081/api/auth/login?username=${encodeURIComponent(username)}&password=${encodeURIComponent(password)}`,
+        `https://sistem-antrian-production-85e7.up.railway.app/api/auth/login?username=${encodeURIComponent(username)}&password=${encodeURIComponent(password)}`,
         {
           method: "POST",
         }

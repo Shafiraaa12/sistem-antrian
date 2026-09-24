@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 
-const API = 'http://localhost:8081/api/antrian'
+const API = 'https://sistem-antrian-production-85e7.up.railway.app/api/antrian'
 
 const poliList = [
   {

@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import "./Petugas.css";
 
-const API = "http://localhost:8081/api/antrian";
-const POLI_API = "http://localhost:8081/api/poli";
-const DOKTER_API = "http://localhost:8081/api/dokter";
+const API = "https://sistem-antrian-production-85e7.up.railway.app/api/antrian";
+const POLI_API = "https://sistem-antrian-production-85e7.up.railway.app/api/poli";
+const DOKTER_API = "https://sistem-antrian-production-85e7.up.railway.app/api/dokter";
 
 const ruangList = [
   { nama: "Ruang 1", poliId: 1, poli: "Poli Umum" },
