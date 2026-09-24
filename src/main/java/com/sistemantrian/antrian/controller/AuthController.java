@@ -13,7 +13,7 @@ import com.sistemantrian.antrian.repository.UserRepository;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://antrian-ku.vercel.app")
 public class AuthController {
 
     private final UserRepository userRepository;

@@ -21,7 +21,7 @@ import com.sistemantrian.antrian.service.AntrianService;
 
 @RestController
 @RequestMapping("/api/antrian")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://antrian-ku.vercel.app")
 public class AntrianController {
 
     private final AntrianRepository antrianRepository;

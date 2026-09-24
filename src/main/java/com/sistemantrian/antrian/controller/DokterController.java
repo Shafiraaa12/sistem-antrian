@@ -12,7 +12,7 @@ import com.sistemantrian.antrian.repository.DokterRepository;
 
 @RestController
 @RequestMapping("/api/dokter")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://antrian-ku.vercel.app")
 public class DokterController {
 
     private final DokterRepository dokterRepository;
