@@ -46,6 +46,13 @@ public class AntrianController {
         return antrianRepository.findAll();
     }
 
+    @GetMapping("/hari-ini")
+    public List<Antrian> getAntrianHariIni() {
+        return antrianRepository.findByTanggalOrderByIdAsc(
+            LocalDate.now()
+        );
+    }
+
     @PostMapping
     public Antrian tambahAntrian(
             @RequestParam String nomor,
